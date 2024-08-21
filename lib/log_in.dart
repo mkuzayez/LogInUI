@@ -50,7 +50,7 @@ class _LogInScreenState extends State<LogInScreen> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(27, 0, 27, 0),
+                      padding: const EdgeInsets.fromLTRB(32, 0, 32, 0),
                       child: Column(
                         children: [
                           TextField(
@@ -163,6 +163,7 @@ class _LogInScreenState extends State<LogInScreen> {
                             filled: true,
                             fillColor: Color.fromARGB(65, 106, 98, 183),
                             border: OutlineInputBorder(
+                              borderSide: BorderSide.none,
                               borderRadius: BorderRadius.all(
                                 Radius.circular(16),
                               ),
@@ -181,6 +182,7 @@ class _LogInScreenState extends State<LogInScreen> {
                             filled: true,
                             fillColor: Color.fromARGB(65, 106, 98, 183),
                             border: OutlineInputBorder(
+                              borderSide: BorderSide.none,
                               borderRadius: BorderRadius.all(
                                 Radius.circular(16),
                               ),
@@ -233,8 +235,8 @@ class _LogInScreenState extends State<LogInScreen> {
                         child: Text(
                           "Don't have an account? Sign up",
                           style: TextStyle(
-                            color: Color.fromARGB(255, 0, 0, 0),
-                            fontSize: 16,
+                            color: Color.fromARGB(255, 106, 98, 183),
+                            fontSize: 18,
                           ),
                         ),
                       ),
