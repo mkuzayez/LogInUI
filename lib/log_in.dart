@@ -165,7 +165,7 @@ class _LogInScreenState extends State<LogInScreen> {
                             border: OutlineInputBorder(
                               borderSide: BorderSide.none,
                               borderRadius: BorderRadius.all(
-                                Radius.circular(16),
+                                Radius.circular(25),
                               ),
                             ),
                             hintText: "Username",
@@ -184,7 +184,7 @@ class _LogInScreenState extends State<LogInScreen> {
                             border: OutlineInputBorder(
                               borderSide: BorderSide.none,
                               borderRadius: BorderRadius.all(
-                                Radius.circular(16),
+                                Radius.circular(25),
                               ),
                             ),
                             hintText: "Password",
@@ -203,7 +203,7 @@ class _LogInScreenState extends State<LogInScreen> {
                               ),
                               shape: WidgetStatePropertyAll(
                                 RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(16),
+                                  borderRadius: BorderRadius.circular(25),
                                 ),
                               ),
                             ),
